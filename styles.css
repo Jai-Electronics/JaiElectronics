@@ -1,0 +1,140 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9ff; /* a very light blue background for the overall page */
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #0066cc, #004d99); /* gradient blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #2c3e50; /* dark slate color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
+
+#items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ffffff; /* white background for the items area */
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.333% - 22px);
+    text-align: center;
+    background-color: #ffffff; /* white background for product items */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+h1{
+    font-family: 'Arial', sans-serif;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 50px;
+}
+
+h2{
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+img {
+    border: 1px solid #555;
+  }
+/* Navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+#shop-info, #team-info {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#contact-info {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#contact-form {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#location, #directions, #hours {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
